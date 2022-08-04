@@ -1,0 +1,41 @@
+.car {
+  border-bottom: 8px dashed #1c6ea4;
+
+  .car-header {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+
+  .car-race {
+    display: inline-grid;
+    width: 100%;
+    grid-template-columns: 1fr 6fr 0fr;
+    align-items: center;
+    justify-items: center;
+
+    .button-drive {
+      width: 50px;
+      height: 50px;
+      background-color: transparent;
+      border: solid 2px #1c6ea4;
+    }
+
+    .car-model {
+      justify-self: start;
+
+      height: 75px;
+      width: 125px;
+    }
+
+    .car-flag {
+      height: 75px;
+      width: 125px;
+    }
+  }
+}
+
+.icon {
+  height: 75px;
+  width: 125px;
+}
